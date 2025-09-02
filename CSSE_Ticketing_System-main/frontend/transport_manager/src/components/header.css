@@ -1,0 +1,50 @@
+.header {
+  background-color: #333;
+  padding: 10px 0;
+ }
+ 
+ .appname h2 {
+  color: #fff;
+  margin: 0;
+  
+ }
+ 
+ .navigation {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+ }
+ 
+ .menu {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+ }
+ 
+ .nav__item {
+  margin: 0 10px;
+ }
+ 
+ .nav-link {
+  color: #fff;
+  text-decoration: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+ }
+ 
+ 
+ 
+ .active {
+  background-color: #4CAF50;
+  color: #fff;
+ }
+ 
+ .logout-btn {
+  background-color: #FF4500;
+  color: #fff;
+ }
+ 
+ .logout-btn:hover {
+  background-color: #FF6347;
+ }
